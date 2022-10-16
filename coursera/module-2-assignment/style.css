@@ -82,13 +82,12 @@
   }
 }
 
-.menu {
+h1 {
   text-align: center;
 }
 
 .items {
-  display: inline-block;
-  flex-direction: row;
+  float: left;
   background: #808080;
   padding: 10px;
   margin: 1%;
