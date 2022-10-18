@@ -42,6 +42,7 @@ h2 {
   text-align: right;
   border: 1px solid black;
   padding: 5px 30px;
+  max-width: 90%;
 }
 
 .chicken {
