@@ -21,12 +21,11 @@
 .section {
   background: #d3d3d3;
   border: 1px solid black;
-  margin: 1%;
-  min-wdith: 90%;
+  margin: 2%;
 }
 
 h1 {
-  margin: 1%;
+  margin: 2%;
 }
 
 p {
@@ -148,6 +147,6 @@ h2 {
 /* For mobile phones: */
 @media only screen and (max-width: 767px) {
   [class*="col-sm"] {
-    max-width: 80%;
+    max-width: 90%;
   }
 }
