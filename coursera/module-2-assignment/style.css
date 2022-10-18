@@ -5,6 +5,7 @@
   text-align: center;
   font-family: adelle, serif;
   font-style: normal;
+  max-width: 100%;
 }
 
 .row {
@@ -20,11 +21,12 @@
 .section {
   background: #d3d3d3;
   border: 1px solid black;
-  margin: 2%;
+  margin: 1%;
+  min-wdith: 90%;
 }
 
 h1 {
-  margin: 2%;
+  margin: 1%;
 }
 
 p {
@@ -42,6 +44,7 @@ h2 {
   text-align: right;
   border: 1px solid black;
   padding: 5px 30px;
+  max-width: 90%;
 }
 
 .chicken {
@@ -102,6 +105,7 @@ h2 {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .container {
     float: left;
+    margin-top: -0.5%;
   }
   .col-md-1 {
     width: 8.33%;
