@@ -37,12 +37,11 @@ h2 {
   position: relative;
   right: -1px;
   top: -1px;
-  box-sizing: border-box;
   float: right;
-  text-align: right;
   border: 1px solid black;
   padding: 5px 30px;
-  max-width: 90%;
+  min-width: 30%;
+  max-width: 100%;
 }
 
 .chicken {
