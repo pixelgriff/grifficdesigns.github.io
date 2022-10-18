@@ -4,8 +4,6 @@
   margin: auto;
   text-align: center;
   font-family: adelle, serif;
-  font-style: normal;
-  max-width: 100%;
 }
 
 .row {
@@ -21,11 +19,12 @@
 .section {
   background: #d3d3d3;
   border: 1px solid black;
-  margin: 2%;
+  margin: 0.75em;
 }
 
 h1 {
-  margin: 2%;
+  font-size: 2.5em;
+  margin: 1em;
 }
 
 p {
@@ -43,7 +42,6 @@ h2 {
   text-align: right;
   border: 1px solid black;
   padding: 5px 30px;
-  max-width: 90%;
 }
 
 .chicken {
@@ -104,7 +102,6 @@ h2 {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .container {
     float: left;
-    margin-top: -0.5%;
   }
   .col-md-1 {
     width: 8.33%;
@@ -147,6 +144,5 @@ h2 {
 /* For mobile phones: */
 @media only screen and (max-width: 767px) {
   [class*="col-sm"] {
-    max-width: 90%;
   }
 }
