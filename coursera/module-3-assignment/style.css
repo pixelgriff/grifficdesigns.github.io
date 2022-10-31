@@ -1,1 +1,26 @@
+/* RESET STYLES */
 
+* {
+  font-family: adelle, serif;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* BODY */
+
+body h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 90%;
+}
+
+/* MEDIA QUERIES */
+
+/* For desktop: */
