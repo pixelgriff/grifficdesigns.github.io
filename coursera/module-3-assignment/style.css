@@ -12,14 +12,33 @@
 
 /* BODY */
 
-body h1 {
-  text-align: center;
+.row .container {
+  max-width: 90%;
+  margin-bottom: 1em;
 }
 
-.container {
-  max-width: 90%;
+body h1 {
+  margin: 0.5em;
+}
+
+h2 {
+  padding: 5px;
+}
+
+.chicken h2 {
+  background: #f8c8dc;
+}
+
+.beef h2 {
+  background: #ff6961;
+}
+
+.sushi h2 {
+  background: #fdfd96;
+}
+
+p {
+  padding: 10px 20px;
 }
 
 /* MEDIA QUERIES */
-
-/* For desktop: */
