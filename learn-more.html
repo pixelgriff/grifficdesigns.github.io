@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>CFG Web Dev</title>
+    <title>CFG Bootcamp</title>
     <!-- required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-    <!-- Fonts and CSS -->
+    <!-- Adobe fonts and CSS -->
     <link rel="stylesheet" href="https://use.typekit.net/nlg7ktd.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -22,7 +22,8 @@
     <header>
         <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-black">
             <div class="container mt-2">
-                <a class="navbar-brand px-2 text-light active" aria-current="page" href="#">Earth Hour 2023</a>
+                <a class="navbar-brand text-light px-2" href="index.html">Earth Hour
+                    2023</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,10 +32,11 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item px-2">
-                                <a class="nav-link text-light" href="take-part.html">Take part</a>
+                                <a class="nav-link text-light" href="take-part.html">Take
+                                    part</a>
                             </li>
                             <li class="nav-item px-2">
-                                <a class="nav-link text-light" href="learn-more.html">Learn more</a>
+                                <a class="nav-link text-light active" aria-current="page" href="#">Learn more</a>
                             </li>
                             <li class="nav-item px-2">
                                 <a class="nav-link text-light" href="subscribe.html">Stay
@@ -50,30 +52,37 @@
     <!-- JUMBOTRON -->
     <div class="container-fluid mt-3">
         <div class="container">
-            <div class="p-5 rounded-5 custom-jumbotron-image min-vh-100"
-                style="background-image: url(images/shutterstock_1933410728.jpg);">
+            <div class="p-5 rounded-5 custom-jumbotron-image"
+                style="background-image: url(images/shutterstock_567462481.jpg);">
                 <div class="container-fluid py-5 text-center text-light">
-                    <h1 class="display-3 fw-bold">Lights out in:</h1>
-                    <!-- COUNTDOWN -->
-                    <div class="pt-3 text-center" id="countdown"></div>
+                    <h1 class="display-3 fw-bold">What is Earth Hour?</h1>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- FEATURETTE-->
+    <!-- CARD -->
     <div class="container-fluid mt-5">
         <div class="container">
-            <div class="h-100 p-5 text-bg-light rounded-5 text-center" id="custom-cards">
-                <h2 class="">Earth Hour 2023</h2>
-                <h2 class="">25th March, 8.30 - 9:30pm</h2>
-                <h4>Join the fight against climate change and switch off your lights for one hour.</h4>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center pt-2">
-                    <a href="take-part.html"> <button type="button" class="btn btn-dark btn-lg px-4 gap-3">Take
-                            part</button></a>
-                    <a href="learn-more.html"><button type="button" class="btn btn-outline-dark btn-lg px-4">Learn
-                            more</button></a>
-                </div>
+            <div class="h-100 p-5 text-bg-light rounded-5" id="custom-cards">
+                <h2>A brief history</h2>
+                <p>It all started back in 2007, born out of frustration about inaction to tackle climate change
+                    and protect nature, to replace people’s despair with hope and positivity at a global level.
+                    On 31 March 2007, more than 2.2 million individuals and 2,000 businesses in Sydney,
+                    Australia switched off their lights for one hour, which marked the beginning of the Earth
+                    Hour movement. And that one hour has gone global, with more than 190 countries
+                    participating in switch - off events and activities to show their support for nature and
+                    climate.</p>
+                <p>Today, Earth Hour is one of the world’s largest grassroots environmental movements, which
+                    takes place every year with the same aim as back in 2007 - to unite the world in support of
+                    people and the planet. However, its impact has gone beyond just turning off lights for
+                    one hour.</p>
+                <em>
+                    <small class="text-muted">
+                        <cite>Source: 10 Most Interesting Facts About Earth Hour | WWF.
+                            https://www.wwf.org.uk/earth-hour/10-facts-about-earth-hour</cite>
+                    </small>
+                </em>
             </div>
         </div>
     </div>
@@ -82,9 +91,9 @@
     <footer class="container-fluid bg-black float-end mt-5">
         <div class="container border-top border-dark border-2">
             <ul class="nav justify-content-center pt-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
                 <li class="nav-item"><a href="take-part.html" class="nav-link px-2 text-muted">Take part</a></li>
-                <li class="nav-item"><a href="learn-more.html" class="nav-link px-2 text-muted">Learn more</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Learn more</a></li>
                 <li class="nav-item"><a href="subscribe.html" class="nav-link px-2 text-muted">Stay updated</a></li>
             </ul>
         </div>
@@ -137,7 +146,6 @@
 
     <!-- Javascript -->
     <script src="script.js"></script>
-    <script src="countdown.js"></script>
 </body>
 
 </html>
