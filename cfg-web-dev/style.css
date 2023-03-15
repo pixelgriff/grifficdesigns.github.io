@@ -81,3 +81,9 @@ footer .custom-socials:hover {
         padding: 1.5rem !important;
     }
 }
+
+@media (max-width: 992px) {
+    .active {
+        padding-left: 10px;
+    }
+}
