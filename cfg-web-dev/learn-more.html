@@ -12,7 +12,10 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <!-- Adobe fonts and CSS -->
-    <link rel="stylesheet" href="https://use.typekit.net/nlg7ktd.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,29 +24,27 @@
     <!-- NAVBAR -->
     <header>
         <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-black">
-            <div class="container mt-2">
-                <a class="navbar-brand text-light px-2" href="index.html">Earth Hour
-                    2023</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item px-2">
-                                <a class="nav-link text-light" href="take-part.html">Take
-                                    part</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link text-light active" aria-current="page" href="#">Learn more</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link text-light" href="subscribe.html">Stay
-                                    updated</a>
-                            </li>
-                        </ul>
-                    </div>
+            <a class="navbar-brand text-light px-2" href="index.html">Earth Hour
+                2023</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="take-part.html">Take
+                                part</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light active" aria-current="page" href="#">Learn more</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="subscribe.html">Stay
+                                updated</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -51,45 +52,41 @@
 
     <!-- JUMBOTRON -->
     <div class="container-fluid mt-3">
-        <div class="container">
-            <div class="p-5 rounded-5 custom-jumbotron-image"
-                style="background-image: url(images/shutterstock_567462481.jpg);">
-                <div class="container-fluid py-5 text-center text-light">
-                    <h1 class="display-3 fw-bold">What is Earth Hour?</h1>
-                </div>
+        <div class="p-5 rounded-5 custom-jumbotron-image"
+            style="background-image: url(images/shutterstock_567462481.jpg);">
+            <div class="container-fluid py-5 text-center text-light">
+                <h1 class="display-3 fw-bold">What is Earth Hour?</h1>
             </div>
         </div>
     </div>
 
     <!-- CARD -->
     <div class="container-fluid mt-5">
-        <div class="container">
-            <div class="h-100 p-5 text-bg-light rounded-5" id="custom-cards">
-                <h2>A brief history</h2>
-                <p>It all started back in 2007, born out of frustration about inaction to tackle climate change
-                    and protect nature, to replace people’s despair with hope and positivity at a global level.
-                    On 31 March 2007, more than 2.2 million individuals and 2,000 businesses in Sydney,
-                    Australia switched off their lights for one hour, which marked the beginning of the Earth
-                    Hour movement. And that one hour has gone global, with more than 190 countries
-                    participating in switch - off events and activities to show their support for nature and
-                    climate.</p>
-                <p>Today, Earth Hour is one of the world’s largest grassroots environmental movements, which
-                    takes place every year with the same aim as back in 2007 - to unite the world in support of
-                    people and the planet. However, its impact has gone beyond just turning off lights for
-                    one hour.</p>
-                <em>
-                    <small class="text-muted">
-                        <cite>Source: 10 Most Interesting Facts About Earth Hour | WWF.
-                            https://www.wwf.org.uk/earth-hour/10-facts-about-earth-hour</cite>
-                    </small>
-                </em>
-            </div>
+        <div class="h-100 p-5 text-bg-light rounded-5" id="custom-cards">
+            <h2>A brief history</h2>
+            <p>It all started back in 2007, born out of frustration about inaction to tackle climate change
+                and protect nature, to replace people’s despair with hope and positivity at a global level.
+                On 31 March 2007, more than 2.2 million individuals and 2,000 businesses in Sydney,
+                Australia switched off their lights for one hour, which marked the beginning of the Earth
+                Hour movement. And that one hour has gone global, with more than 190 countries
+                participating in switch - off events and activities to show their support for nature and
+                climate.</p>
+            <p>Today, Earth Hour is one of the world’s largest grassroots environmental movements, which
+                takes place every year with the same aim as back in 2007 - to unite the world in support of
+                people and the planet. However, its impact has gone beyond just turning off lights for
+                one hour.</p>
+            <em>
+                <small class="text-muted">
+                    <cite>Source: 10 Most Interesting Facts About Earth Hour | WWF.
+                        https://www.wwf.org.uk/earth-hour/10-facts-about-earth-hour</cite>
+                </small>
+            </em>
         </div>
     </div>
 
     <!-- FOOTER -->
     <footer class="container-fluid bg-black float-end mt-5">
-        <div class="container border-top border-dark border-2">
+        <div class="border-top border-dark border-2">
             <ul class="nav justify-content-center pt-3">
                 <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
                 <li class="nav-item"><a href="take-part.html" class="nav-link px-2 text-muted">Take part</a></li>
@@ -97,7 +94,7 @@
                 <li class="nav-item"><a href="subscribe.html" class="nav-link px-2 text-muted">Stay updated</a></li>
             </ul>
         </div>
-        <div class="container py-3">
+        <div class="py-3">
             <div class="d-flex flex-wrap justify-content-between align-items-center">
                 <div class="d-flex">
                     <span class="mb-md-0 pe-3 text-muted">Code First Girls 2023<br>Made with
